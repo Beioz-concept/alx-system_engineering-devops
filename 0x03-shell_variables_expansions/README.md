@@ -1,1 +1,1 @@
-alias project
+shel expansion
