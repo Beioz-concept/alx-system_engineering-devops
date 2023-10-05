@@ -1,2 +1,2 @@
 #!/bin/bash
-print $(($POWER / $DIVIDE))
+awk 'BEGIN { printf "%.2f\n", ENVIRON["POWER"] / ENVIRON["DIVIDE"] }'
